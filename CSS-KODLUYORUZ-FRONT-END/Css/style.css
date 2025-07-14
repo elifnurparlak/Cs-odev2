@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background: #fff;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+}
+
+/* Çerçeve */
+.büyük-cerceve {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* Arama kutusu */
+.arama-kutusu {
+  background-color: rgb(187, 232, 217);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.arama-kutusu input[type="text"] {
+  width: 300px;
+  padding: 4px;
+  margin: 5px 0;
+}
+
+.buttonlar {
+  margin-top: 5px;
+}
+
+.buttonlar button {
+  margin: 0 3px;
+  padding: 4px 8px;
+}
+
+/* Kutular kısmı: yan yana diz */
+.kutular {
+  display: flex;
+   gap: 5px; /* kutular arası boşluk */
+}
+
+/* Her kutu */
+.kutu {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Renk ve genişlik ayarları */
+.sol {
+  background-color: rgb(19, 165, 117);
+  width: 36%;
+}
+
+.orta {
+  background-color: rgb(12, 130, 91);
+  width: 20%;
+}
+
+.sag {
+  background-color: rgb(3, 141, 95);
+  width: 42%;
+}
+
+/* Paragraflar arası mesafe */
+.kutu p {
+  margin: 2px 0;
+}
+
+/* Sağ kutudaki input */
+.sag input[type="text"] {
+  width: 100%;
+  padding: 4px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
